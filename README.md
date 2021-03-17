@@ -1,4 +1,4 @@
-# Siamese-Triplet Networks using Pytorch
+﻿# Siamese-Triplet Networks using Pytorch
 
 ## Dataset : The Database of Faces (AT&T)
 [The AT&T face dataset, “(formerly ‘The ORL Database of Faces’)](https://git-disl.github.io/GTDLBench/datasets/att_face_dataset/) is used for training face verification and recognititon model.
@@ -38,12 +38,12 @@ Dataset Statistics
 | Training Set     |   75% (300/400)     |
 | Testing Set      |     25% (100/400)   |
 | Validation Set   |     0% (0/400)      |
-| Number of Epochs |          10         |
+| Number of Epochs |          20         |
 | Learning Rate    |    10<sup>-4</sup>  |
-| Total Parameters |        11,235,904   |
+| Total Parameters |      11,235,904     |
 | Loss Function    |     Triplet Loss    |
 | Optimizer        |        Adam         |
 |                  |                     |
-| Train Accuracy   |       71.67 %       |
+| Train Accuracy   |       89.00 %       |
 | Test Accuracy    |       73.00 %       |
-| Total Accuracy   |       72.00 %       |
+| Total Accuracy   |       85.00 %       |
