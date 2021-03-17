@@ -29,3 +29,21 @@ Dataset Statistics
 | Train Accuracy   |       93.0 %        |
 | Test Accuracy    |       73.0 %        |
 | Total Accuracy   |       88.75 %       |
+
+## [ResNet-18](https://github.com/ABD-01/Siamese-Triplet/blob/master/Siamese_ORL(ResNet).ipynb)
+
+
+| Parameter        |        Value        |
+| -----------------| :------------------:|
+| Training Set     |   75% (300/400)     |
+| Testing Set      |     25% (100/400)   |
+| Validation Set   |     0% (0/400)      |
+| Number of Epochs |          10         |
+| Learning Rate    |    10<sup>-4</sup>  |
+| Total Parameters |        11,235,904   |
+| Loss Function    |     Triplet Loss    |
+| Optimizer        |        Adam         |
+|                  |                     |
+| Train Accuracy   |       71.67 %       |
+| Test Accuracy    |       73.00 %       |
+| Total Accuracy   |       72.00 %       |
