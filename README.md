@@ -29,9 +29,9 @@ Dataset Statistics
 | Loss Function    |     Triplet Loss    |
 | Optimizer        |        Adam         |
 |                  |                     |
-| Train Accuracy   |       93.0 %        |
-| Test Accuracy    |       73.0 %        |
-| Total Accuracy   |       88.75 %       |
+| Train Accuracy   |       92.67 %       |
+| Test Accuracy    |       88.0 %        |
+| Total Accuracy   |       87.25 %       |
 
 
 ## [ResNet-18](https://github.com/ABD-01/Siamese-Triplet/blob/master/Siamese_ORL_ResNet/Siamese_ORL(ResNet).ipynb)
@@ -48,9 +48,9 @@ Dataset Statistics
 | Loss Function    |     Triplet Loss    |
 | Optimizer        |        Adam         |
 |                  |                     |
-| Train Accuracy   |       89.00 %       |
-| Test Accuracy    |       73.00 %       |
-| Total Accuracy   |       85.00 %       |
+| Train Accuracy   |       82.00 %       |
+| Test Accuracy    |       87.00 %       |
+| Total Accuracy   |       75.50 %       |
 
 
 ---
