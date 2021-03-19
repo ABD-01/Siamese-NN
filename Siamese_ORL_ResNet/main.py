@@ -105,6 +105,7 @@ def main():
     test_acc = [0]
     epochs = EPOCHS
 
+    #### TRAINING ####
     for epoch in range(epochs):
 
         triplets = get_random_triplets(train)
@@ -138,7 +139,23 @@ def main():
             plt.legend()
             # plt.savefig('/content/drive/MyDrive/Colab Notebooks/siamese-orl-loss on 30classes(resnet)')
             plt.show()
+    #### END TRAINING ####
 
+    torch.save(resnet18.state_dict(), SAVE_PATH)
+
+    torch.set_grad_enabled(False)
+    resnet18.train(False)
+
+    test_pred = Evaluate(resnet18, test)
+    test_acc = ( (test_pred == torch.arange(len(test_pred)).reshape(-1,1)).sum() / (len(test_pred)*10) ).item()
+
+    train_pred = Evaluate(resnet18, train)
+    train_acc = ( (train_pred == torch.arange(len(train_pred)).reshape(-1,1)).sum() / (len(train_pred)*10) ).item()
+
+    total_pred = Evaluate(resnet18, dataset)
+    total_acc = ( (total_pred == torch.arange(len(total_pred)).reshape(-1,1)).sum() / (len(total_pred)*10) ).item()
+
+    print('Train Acc: {:.2f}\nTest Acc: {:.2f}\nTotal Acc: {:.2f}'.format(train_acc, test_acc, total_acc))
 
 if __name__ == '__main__':
     main()
