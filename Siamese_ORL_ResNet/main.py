@@ -68,9 +68,10 @@ def Evaluate(model, batch):
             total_enc = [model.semi_forward(img) for img in batch]
         
         pred = [torch.stack([dist(enc,sample).argmin() for enc in total_enc[i]]) for i in range(len(total_enc))]
-        acc = sum([(pred[i] == i).sum() for i in range(len(total_enc))])
+        # acc = sum([(pred[i] == i).sum() for i in range(len(total_enc))])
         del total_enc
-    return (acc.item() / (len(batch) * 10) )
+    # return (acc.item() / (len(batch) * 10) )
+    return torch.stack(pred)
 
 
 def main():
@@ -114,14 +115,17 @@ def main():
 
             loss = Train(resnet18, batch, triplet_loss, optimizer, cost)
             
-            acc1 = Evaluate(resnet18, train)
+            pred = Evaluate(resnet18, train)
+            acc1 = ( (pred == torch.arange(len(pred)).reshape(-1,1)).sum() / (len(pred)*10) ).item()
             train_acc.append(acc1)
-            acc2 = Evaluate(resnet18, test)
+            
+            pred = Evaluate(resnet18, test)
+            acc2 = ( (pred == torch.arange(len(pred)).reshape(-1,1)).sum() / (len(pred)*10) ).item()
             test_acc.append(acc2)
 
             if (i+1)%1==0 :
                 print(f'Epoch:[{epoch+1}/{epochs}], Step:[{i+1}/{steps}]', 'Cost : {:.2f}, Train Acc: {:.2f}, Test Acc: {:.2f}'.format(loss, acc1, acc2))
-                # print(f'Epoch:[{epoch+1}/{epochs}], Step:[{i+1}] Cost : {loss.item()}')
+                # print(f'Epoch:[{epoch+1}/{epochs}], Step:[{i+1}/87]', 'Cost : {:.2f}'.format(loss))
 
             plt.figure(figsize=(12,10))
             plt.title("Learning Curves")
