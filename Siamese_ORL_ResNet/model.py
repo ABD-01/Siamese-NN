@@ -120,10 +120,16 @@ class ResNet(nn.Module):
         return x
 
     def forward(self,triplet):
-        anc = self.semi_forward(triplet[:,0,...])
-        pos = self.semi_forward(triplet[:,1,...])
-        neg = self.semi_forward(triplet[:,2,...])
-        return [anc, pos, neg]
+        # anc = self.semi_forward(triplet[:,0,...])
+        # pos = self.semi_forward(triplet[:,1,...])
+        # neg = self.semi_forward(triplet[:,2,...])
+        
+        batch_size = triplet.shape[0]
+        # triplet = triplet.view(triplet.shape[0]*triplet.shape[1], triplet.shape[2], triplet.shape[3],triplet.shape[4])
+        triplet = triplet.view(triplet.shape[0]*triplet.shape[1], *triplet.shape[2:])
+        out = self.semi_forward(triplet)
+        out = out.view(batch_size,3, *out.shape[1:])
+        return torch.unbind(out,dim=1)
 
 # ref : https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8
 
