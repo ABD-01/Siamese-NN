@@ -37,19 +37,20 @@ Dataset Statistics
 ## [ResNet-18](https://github.com/ABD-01/Siamese-Triplet/blob/master/Siamese_ORL_ResNet/Siamese_ORL(ResNet).ipynb)
 
 
-| Parameter        |        Value        |
-| -----------------| :------------------:|
-| Training Set     |   75% (300/400)     |
-| Testing Set      |     25% (100/400)   |
-| Number of Epochs |          20         |
-| Learning Rate    |    10<sup>-4</sup>  |
-| Total Parameters |      11,235,904     |
-| Loss Function    |     Triplet Loss    |
-| Optimizer        |        Adam         |
-|                  |                     |
-| Train Accuracy   |       82.00 %       |
-| Test Accuracy    |       87.00 %       |
-| Total Accuracy   |       75.50 %       |
+| Parameter        |[Face Identification](Siamese_ORL_ResNet/Siamese_ORL(ResNet)v2.ipynb) | [One Shot Learning](Siamese_ORL_ResNet/Siamese_ORL(ResNet).ipynb)  |
+| -----------------|:------------------:|:------------------:|
+| Training Set     |  70% (38x7/38x10)  |  75% (300/400)     |
+| Testing Set      |  30% (38x3/38x10)  |    25% (100/400)   |
+| Number of Epochs |         8          |         20         |
+| Learning Rate    |   20<sup>-4</sup>  |   10<sup>-4</sup>  |
+| Total Parameters |     11,235,904     |     11,235,904     |
+| Loss Function    |    Triplet Loss    |    Triplet Loss    |
+| Optimizer        |       Adam         |       Adam         |
+|                  |                    |                    |
+| Threshold        |       8            |         -          |
+| Train Accuracy   |      99.62 %       |      82.00 %       |
+| Test Accuracy    |      94.73 %       |      87.00 %       |
+| Total Accuracy   |      92.75 %       |      75.50 %       |
 
 
 ## [ResNet-26](https://github.com/ABD-01/Siamese-Triplet/blob/master/Siamese_ORL_ResNet/Siamese_ORL(ResNet).ipynb)
