@@ -55,13 +55,14 @@ class Proto(nn.Module):
         self.prototyper = nn.Sequential(
             MNIST_CNN(input_shape),
             nn.Linear(in_features=self.ft_output_size, out_features=self.proto_size)
-        ).to(self.device)
+        )
+        self.prototyper.to(self.device, non_blocking=True)
 
         self.optimizer = torch.optim.Adam(
             self.prototyper.parameters(), lr = args.learning_rate
         )
         self.scheduler = torch.optim.lr_scheduler.StepLR(
-            self.optimizer, args.lr_scheduler_step, gamma=args.lr_scheduler_gamma, verbose=True
+            self.optimizer, args.lr_scheduler_step, gamma=args.lr_scheduler_gamma, verbose=False
         )
 
 
@@ -74,6 +75,7 @@ class Proto(nn.Module):
         # )
         x, y = minibatch
         x, y = x.to(self.device), y.to(self.device)
+        # x = x.to(self.device)
 
         # x_proto = self.prototyper(all_x)
         # num_domains_iter = len(minibatch)
@@ -84,11 +86,12 @@ class Proto(nn.Module):
         # )
         x_proto = self.prototyper(x)
         loss, accuracy = self.prototypical_loss(x_proto, y, self.n_support)
+        del x
 
         self.optimizer.zero_grad(set_to_none=True)
         loss.backward()
         self.optimizer.step()
-        self.scheduler.step()
+        # self.scheduler.step()
 
         if torch.is_tensor(loss):
             loss = loss.item()
@@ -118,9 +121,8 @@ class Proto(nn.Module):
 
     def init_prototype_training(self):
         """ Set up model to train prototype. """
-        return
-        self.prototyper.to("cuda")
-        self.prototyper = nn.parallel.DataParallel(self.prototyper).cuda()
+        self.prototyper.to(self.device, non_blocking=True)
+        self.prototyper = nn.parallel.DataParallel(self.prototyper).to(self.device, non_blocking=True)
 
 
     def prototypical_loss(self, input, target, n_support, n_query=None):
@@ -153,9 +155,9 @@ class Proto(nn.Module):
         dists = self.euclidean_dist(query_samples, prototypes)
 
         target_inds = torch.arange(0, n_classes, device=self.device).view(n_classes, 1, 1).expand(n_classes, n_query, 1).long()
-        # target_inds = target_inds.cuda()
+        # target_inds = torch.arange(0, n_classes).view(n_classes, 1, 1).expand(n_classes, n_query, 1).long()
 
-        log_p_y = F.softmax(-dists, dim=1).view(n_classes, n_query, -1)
+        log_p_y = F.log_softmax(-dists, dim=1).view(n_classes, n_query, -1)
         loss = -log_p_y.gather(2, target_inds).squeeze().view(-1).mean()
         _, y_hat = log_p_y.max(2)
         acc_val = torch.eq(y_hat, target_inds.squeeze()).float().mean()

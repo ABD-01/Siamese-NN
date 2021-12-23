@@ -1,0 +1,33 @@
+2021-12-23 16:47:00,577 INFO    MainThread:5772 [wandb_setup.py:_flush():71] setting env: {}
+2021-12-23 16:47:00,578 INFO    MainThread:5772 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-12-23 16:47:00,578 INFO    MainThread:5772 [wandb_init.py:_log_setup():371] Logging user logs to C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_164700-15zbgmp6\logs\debug.log
+2021-12-23 16:47:00,579 INFO    MainThread:5772 [wandb_init.py:_log_setup():372] Logging internal logs to C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_164700-15zbgmp6\logs\debug-internal.log
+2021-12-23 16:47:00,579 INFO    MainThread:5772 [wandb_init.py:init():404] calling init triggers
+2021-12-23 16:47:00,579 INFO    MainThread:5772 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {'dataset_root': '../Datasets', 'experiment_root': './output', 'epochs': 100, 'learning_rate': 0.001, 'lr_scheduler_step': 50, 'lr_scheduler_gamma': 0.5, 'iterations': 100, 'classes_per_it_tr': 20, 'num_support_tr': 5, 'num_query_tr': 5, 'classes_per_it_val': 5, 'num_support_val': 5, 'num_query_val': 15, 'resume': './output/prototype_epoch_10.pth', 'seed': 0, 'cuda': True}
+2021-12-23 16:47:00,579 INFO    MainThread:5772 [wandb_init.py:init():449] starting backend
+2021-12-23 16:47:00,579 INFO    MainThread:5772 [backend.py:_multiprocessing_setup():95] multiprocessing start_methods=spawn, using: spawn
+2021-12-23 16:47:00,584 INFO    MainThread:5772 [backend.py:ensure_launched():199] starting backend process...
+2021-12-23 16:47:00,667 INFO    MainThread:5772 [backend.py:ensure_launched():204] started backend process with pid: 14196
+2021-12-23 16:47:00,668 INFO    MainThread:5772 [wandb_init.py:init():458] backend started and connected
+2021-12-23 16:47:00,669 INFO    MainThread:5772 [wandb_init.py:init():519] updated telemetry
+2021-12-23 16:47:00,713 INFO    MainThread:5772 [wandb_init.py:init():549] communicating current version
+2021-12-23 16:47:05,723 WARNING MainThread:5772 [wandb_init.py:init():938] interrupted
+Traceback (most recent call last):
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\wandb\sdk\wandb_init.py", line 917, in init
+    run = wi.init()
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\wandb\sdk\wandb_init.py", line 550, in init
+    check = backend.interface.communicate_check_version(
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\wandb\sdk\interface\interface.py", line 87, in communicate_check_version
+    ret = self._communicate_check_version(check_version)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\wandb\sdk\interface\interface_queue.py", line 436, in _communicate_check_version
+    result = self._communicate(rec)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\wandb\sdk\interface\interface_queue.py", line 232, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\wandb\sdk\interface\router.py", line 32, in get
+    is_set = self._object_ready.wait(timeout)
+  File "C:\Users\abdul\AppData\Local\Programs\Python\Python39\lib\threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\abdul\AppData\Local\Programs\Python\Python39\lib\threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

@@ -1,0 +1,40 @@
+Files already downloaded and verified
+Files already downloaded and verified
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:38<00:00,  2.63it/s]
+  0%|                                                                                                                                         | 0/100 [00:00<?, ?it/s]
+[34mLoss 0.969360 (0.969360)
+
+
+
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊          | 92/100 [00:10<00:00, 13.18it/s]
+[34mVal_Loss 0.491116 (0.491116)
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:11<00:00,  8.57it/s]
+Traceback (most recent call last):
+  File "C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 206, in <module>
+    main(args)
+  File "C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 127, in main
+    model.save_prototype(proto_chkpt)
+  File "C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\model.py", line 107, in save_prototype
+    return torch.save(self.prototyper, output_file)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\serialization.py", line 376, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './output\\prototype_epoch_0.pth'

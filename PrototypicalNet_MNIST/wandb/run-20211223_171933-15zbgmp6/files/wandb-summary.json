@@ -1,0 +1,1 @@
+{"epoch_loss": 0.3875453770160675, "proto_loss": 0.3875453770160675, "val_accuracy": 0.9466667175292969, "epoch_accuracy": 0.85999995470047, "_step": 11362, "_runtime": 3886, "proto_acc": 0.85999995470047, "lr": 6.25e-05, "val_loss": 0.21007218956947327, "_timestamp": 1640262196, "_wandb": {"runtime": 2021}}

@@ -1,0 +1,68 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.7
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.8
+    start_time: 1640257690
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 16
+      4: 3.9.8
+      5: 0.12.7
+      8:
+      - 3
+      - 5
+classes_per_it_tr:
+  desc: null
+  value: 20
+classes_per_it_val:
+  desc: null
+  value: 5
+cuda:
+  desc: null
+  value: true
+dataset_root:
+  desc: null
+  value: ../Datasets
+epochs:
+  desc: null
+  value: 100
+experiment_root:
+  desc: null
+  value: ./output
+iterations:
+  desc: null
+  value: 100
+learning_rate:
+  desc: null
+  value: 0.001
+lr_scheduler_gamma:
+  desc: null
+  value: 0.5
+lr_scheduler_step:
+  desc: null
+  value: 50
+num_query_tr:
+  desc: null
+  value: 5
+num_query_val:
+  desc: null
+  value: 15
+num_support_tr:
+  desc: null
+  value: 5
+num_support_val:
+  desc: null
+  value: 5
+seed:
+  desc: null
+  value: 0

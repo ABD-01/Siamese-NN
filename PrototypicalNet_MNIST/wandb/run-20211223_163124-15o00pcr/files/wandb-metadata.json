@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.22000",
+    "python": "3.9.8",
+    "heartbeatAt": "2021-12-23T11:01:26.664070",
+    "startedAt": "2021-12-23T11:01:24.532604",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-ncTr",
+        "21",
+        "--cuda"
+    ],
+    "state": "running",
+    "program": "c:\\Users\\abdul\\Projects\\Self-Supervised-Learning\\PrototypicalNet_MNIST\\train.py",
+    "codePath": "PrototypicalNet_MNIST\\train.py",
+    "git": {
+        "remote": "git@github.com:ABD-01/Siamese-NN.git",
+        "commit": "790dc806fc8ad43a0b35c8aa77596dc1f3b5f199"
+    },
+    "email": "myac931@gmail.com",
+    "root": "C:/Users/abdul/Projects/Self-Supervised-Learning",
+    "host": "ZER0",
+    "username": "ABD",
+    "executable": "C:\\Users\\abdul\\Projects\\projects\\Scripts\\python.exe"
+}

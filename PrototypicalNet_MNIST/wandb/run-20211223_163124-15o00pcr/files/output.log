@@ -1,0 +1,16 @@
+
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                                                         | 0/100 [00:10<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 206, in <module>
+    main(args)
+  File "c:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 113, in main
+    result = model.prototype_update(batch)
+  File "c:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\model.py", line 92, in prototype_update
+    loss.backward()
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\autograd\__init__.py", line 154, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: CUDA out of memory. Tried to allocate 566.00 MiB (GPU 0; 4.00 GiB total capacity; 1.52 GiB already allocated; 355.70 MiB free; 1.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

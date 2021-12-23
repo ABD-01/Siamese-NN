@@ -1,0 +1,512 @@
+2021-12-23 16:33:32,127 INFO    MainThread:17976 [internal.py:wandb_internal():87] W&B internal server running at pid: 17976, started at: 2021-12-23 16:33:32.127402
+2021-12-23 16:33:32,127 INFO    WriterThread:17976 [datastore.py:open_for_write():77] open: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\run-2j5n43g4.wandb
+2021-12-23 16:33:32,127 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: check_version
+2021-12-23 16:33:32,127 DEBUG   SenderThread:17976 [sender.py:send():238] send: header
+2021-12-23 16:33:32,127 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: check_version
+2021-12-23 16:33:32,303 DEBUG   SenderThread:17976 [sender.py:send():238] send: run
+2021-12-23 16:33:32,655 INFO    SenderThread:17976 [dir_watcher.py:__init__():169] watching files in: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files
+2021-12-23 16:33:32,655 INFO    SenderThread:17976 [sender.py:_start_run_threads():825] run started: 2j5n43g4 with start time 1640257410
+2021-12-23 16:33:32,655 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:32,655 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: run_start
+2021-12-23 16:33:32,655 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:32,670 DEBUG   HandlerThread:17976 [meta.py:__init__():40] meta init
+2021-12-23 16:33:32,670 DEBUG   HandlerThread:17976 [meta.py:__init__():54] meta init done
+2021-12-23 16:33:32,670 DEBUG   HandlerThread:17976 [meta.py:probe():214] probe
+2021-12-23 16:33:32,720 DEBUG   HandlerThread:17976 [meta.py:_setup_git():204] setup git
+2021-12-23 16:33:32,828 DEBUG   HandlerThread:17976 [meta.py:_setup_git():211] setup git done
+2021-12-23 16:33:32,828 DEBUG   HandlerThread:17976 [meta.py:_save_pip():58] save pip
+2021-12-23 16:33:32,828 DEBUG   HandlerThread:17976 [meta.py:_save_pip():72] save pip done
+2021-12-23 16:33:32,828 DEBUG   HandlerThread:17976 [meta.py:probe():252] probe done
+2021-12-23 16:33:32,844 DEBUG   SenderThread:17976 [sender.py:send():238] send: files
+2021-12-23 16:33:32,844 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-12-23 16:33:32,859 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-23 16:33:32,859 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: stop_status
+2021-12-23 16:33:33,670 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:33,671 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\requirements.txt
+2021-12-23 16:33:33,671 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:33,671 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-metadata.json
+2021-12-23 16:33:33,759 INFO    Thread-17 :17976 [upload_job.py:push():137] Uploaded file C:\Users\abdul\AppData\Local\Temp\tmpj06_kii3wandb\11ba7dyd-wandb-metadata.json
+2021-12-23 16:33:35,688 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:37,699 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:41,742 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:46,837 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:46,837 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:46,839 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:47,121 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:47,132 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:47,133 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:47,416 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:47,416 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:47,417 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:47,699 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:47,699 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:47,699 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:47,803 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:48,000 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:48,004 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:48,005 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:48,188 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-23 16:33:48,188 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: stop_status
+2021-12-23 16:33:48,512 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:48,512 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:48,512 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:48,559 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:48,572 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:48,573 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:48,804 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:48,851 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:48,859 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:48,861 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:49,143 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:49,152 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:49,152 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:49,441 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:49,441 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:49,442 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:49,711 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:49,711 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:49,726 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:49,819 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:49,819 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:50,031 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:50,033 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:50,034 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:50,332 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:50,332 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:50,345 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:50,642 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:50,650 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:50,651 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:50,820 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:50,929 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:50,929 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:50,937 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:51,237 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:51,241 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:51,242 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:51,527 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:51,527 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:51,528 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:51,797 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:51,808 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:51,809 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:51,830 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:51,830 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:52,093 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:52,104 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:52,105 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:52,382 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:52,382 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:52,394 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:52,668 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:52,684 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:52,685 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:52,851 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:52,979 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:52,980 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:52,981 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:53,268 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:53,273 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:53,274 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:53,566 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:53,566 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:53,568 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:53,860 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:53,860 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:53,860 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:53,865 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:53,866 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:54,150 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:54,150 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:54,152 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:54,436 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:54,437 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:54,438 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:54,727 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:54,727 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:54,728 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:54,866 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:55,008 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:55,008 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:55,010 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:55,289 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:55,290 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:55,290 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:55,570 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:55,570 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:55,571 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:55,879 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:55,879 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:55,885 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:55,886 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:55,889 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:56,186 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:56,187 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:56,188 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:56,481 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:56,481 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:56,483 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:56,770 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:56,770 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:56,775 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:56,883 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:57,061 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:57,061 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:57,062 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:57,345 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:57,346 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:57,346 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:57,631 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:57,632 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:57,633 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:57,891 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:57,892 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:57,920 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:57,920 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:57,921 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:58,203 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:58,203 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:58,204 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:58,497 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:58,498 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:58,499 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:58,787 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:58,788 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:58,790 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:58,903 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:59,092 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:59,093 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:59,094 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:59,385 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:59,386 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:59,387 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:59,673 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:59,674 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:59,675 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:33:59,906 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:33:59,906 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:33:59,956 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:33:59,956 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:33:59,957 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:00,240 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:00,240 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:00,241 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:00,525 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:00,525 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:00,526 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:00,809 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:00,809 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:00,810 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:00,914 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:01,103 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:01,103 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:01,105 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:01,401 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:01,401 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:01,402 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:01,688 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:01,688 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:01,689 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:01,923 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:01,923 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:01,975 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:01,976 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:01,977 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:02,268 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:02,269 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:02,270 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:02,554 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:02,554 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:02,555 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:02,840 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:02,840 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:02,842 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:02,935 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:03,124 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:03,124 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:03,126 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:03,403 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:03,403 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:03,403 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:03,528 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-23 16:34:03,528 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: stop_status
+2021-12-23 16:34:03,863 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:03,863 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:03,863 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:03,945 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:03,945 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:03,977 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:03,977 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:03,992 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:04,024 DEBUG   SenderThread:17976 [sender.py:send():238] send: stats
+2021-12-23 16:34:04,274 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:04,274 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:04,274 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:04,550 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:04,550 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:04,550 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:04,847 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:04,847 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:04,847 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:04,969 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:05,125 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:05,125 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:05,125 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:05,424 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:05,424 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:05,424 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:05,706 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:05,706 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:05,706 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:05,975 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:05,975 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:06,002 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:06,002 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:06,003 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:06,283 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:06,283 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:06,284 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:06,558 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:06,558 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:06,558 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:06,859 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:06,860 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:06,861 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:06,990 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:07,146 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:07,147 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:07,148 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:07,435 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:07,435 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:07,435 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:07,720 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:07,720 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:07,721 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:07,999 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:07,999 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:07,999 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:07,999 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:08,014 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:08,304 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:08,304 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:08,305 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:08,591 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:08,591 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:08,593 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:08,878 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:08,878 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:08,879 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:09,003 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:09,167 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:09,168 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:09,170 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:09,458 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:09,459 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:09,460 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:09,743 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:09,743 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:09,745 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:10,012 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:10,012 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:10,030 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:10,030 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:10,031 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:10,323 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:10,323 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:10,324 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:10,608 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:10,608 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:10,609 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:10,893 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:10,893 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:10,894 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:11,017 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:11,187 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:11,187 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:11,189 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:11,481 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:11,481 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:11,482 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:11,769 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:11,770 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:11,770 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:12,023 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:12,023 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:12,055 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:12,055 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:12,055 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:12,343 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:12,343 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:12,343 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:12,630 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:12,630 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:12,631 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:12,917 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:12,917 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:12,919 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:13,039 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:13,039 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:13,203 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:13,203 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:13,203 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:13,482 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:13,482 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:13,482 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:13,775 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:13,775 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:13,775 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:14,046 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:14,061 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:14,061 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:14,061 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:14,352 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:14,353 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:14,354 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:14,676 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:14,676 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:14,677 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:14,952 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:14,952 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:14,952 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:15,062 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:15,062 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:15,244 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:15,245 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:15,246 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:15,533 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:15,533 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:15,534 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:15,923 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:15,924 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:15,925 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:16,074 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:17,079 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:18,873 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-23 16:34:18,873 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: stop_status
+2021-12-23 16:34:21,113 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:23,116 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:25,131 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:27,146 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:27,951 DEBUG   SenderThread:17976 [sender.py:send():238] send: history
+2021-12-23 16:34:27,951 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:27,951 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:28,155 INFO    Thread-12 :17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:28,315 DEBUG   SenderThread:17976 [sender.py:send():238] send: telemetry
+2021-12-23 16:34:28,315 DEBUG   SenderThread:17976 [sender.py:send():238] send: exit
+2021-12-23 16:34:28,315 INFO    SenderThread:17976 [sender.py:send_exit():370] handling exit code: 1
+2021-12-23 16:34:28,315 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:28,315 INFO    SenderThread:17976 [sender.py:send_exit():372] handling runtime: 55
+2021-12-23 16:34:28,315 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:28,315 INFO    SenderThread:17976 [sender.py:send_exit():382] send defer
+2021-12-23 16:34:28,315 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:28,315 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:28,315 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 0
+2021-12-23 16:34:28,315 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:28,315 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-12-23 16:34:28,315 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 1
+2021-12-23 16:34:28,315 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:28,315 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 1
+2021-12-23 16:34:28,460 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:28,460 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:28,460 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-12-23 16:34:28,461 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 2
+2021-12-23 16:34:28,461 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:28,462 DEBUG   SenderThread:17976 [sender.py:send():238] send: stats
+2021-12-23 16:34:28,462 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:28,462 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 2
+2021-12-23 16:34:28,463 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:28,463 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-12-23 16:34:28,463 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 3
+2021-12-23 16:34:28,463 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:28,463 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 3
+2021-12-23 16:34:28,463 DEBUG   SenderThread:17976 [sender.py:send():238] send: summary
+2021-12-23 16:34:28,464 INFO    SenderThread:17976 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-23 16:34:28,465 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:28,465 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-12-23 16:34:28,465 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 4
+2021-12-23 16:34:28,465 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:28,465 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 4
+2021-12-23 16:34:28,465 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:28,465 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-12-23 16:34:28,571 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:28,821 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 5
+2021-12-23 16:34:28,821 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:28,821 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:28,821 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 5
+2021-12-23 16:34:28,821 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:28,821 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-12-23 16:34:28,821 INFO    SenderThread:17976 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-12-23 16:34:28,931 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\config.yaml
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:finish():313] scan: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:finish():327] scan save: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\config.yaml config.yaml
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:finish():327] scan save: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log output.log
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:finish():327] scan save: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\requirements.txt requirements.txt
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:finish():327] scan save: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-metadata.json wandb-metadata.json
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [dir_watcher.py:finish():327] scan save: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json wandb-summary.json
+2021-12-23 16:34:29,166 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 6
+2021-12-23 16:34:29,166 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,166 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:29,166 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 6
+2021-12-23 16:34:29,181 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:29,181 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-12-23 16:34:29,181 INFO    SenderThread:17976 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-23 16:34:29,276 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,276 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,385 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,385 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,495 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,496 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,605 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,605 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,714 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,714 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,824 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,824 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:29,933 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:29,933 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:30,036 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:30,036 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:30,059 INFO    Thread-18 :17976 [upload_job.py:push():137] Uploaded file C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\config.yaml
+2021-12-23 16:34:30,074 INFO    Thread-21 :17976 [upload_job.py:push():137] Uploaded file C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\wandb-summary.json
+2021-12-23 16:34:30,140 INFO    Thread-19 :17976 [upload_job.py:push():137] Uploaded file C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\output.log
+2021-12-23 16:34:30,153 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:30,153 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:30,177 INFO    Thread-20 :17976 [upload_job.py:push():137] Uploaded file C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\files\requirements.txt
+2021-12-23 16:34:30,261 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:30,261 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:30,367 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:30,367 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:30,382 INFO    Thread-11 :17976 [sender.py:transition_state():395] send defer: 7
+2021-12-23 16:34:30,383 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:30,383 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 7
+2021-12-23 16:34:30,383 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:30,383 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-12-23 16:34:30,483 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:31,019 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 8
+2021-12-23 16:34:31,019 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:31,019 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:31,019 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 8
+2021-12-23 16:34:31,019 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:31,019 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-12-23 16:34:31,019 INFO    SenderThread:17976 [sender.py:transition_state():395] send defer: 9
+2021-12-23 16:34:31,019 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: defer
+2021-12-23 16:34:31,019 INFO    HandlerThread:17976 [handler.py:handle_request_defer():147] handle defer: 9
+2021-12-23 16:34:31,019 DEBUG   SenderThread:17976 [sender.py:send():238] send: final
+2021-12-23 16:34:31,019 DEBUG   SenderThread:17976 [sender.py:send():238] send: footer
+2021-12-23 16:34:31,019 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: defer
+2021-12-23 16:34:31,019 INFO    SenderThread:17976 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-12-23 16:34:31,137 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-23 16:34:31,137 DEBUG   SenderThread:17976 [sender.py:send_request():252] send_request: poll_exit
+2021-12-23 16:34:31,137 INFO    SenderThread:17976 [file_pusher.py:join():182] waiting for file pusher
+2021-12-23 16:34:31,830 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: get_summary
+2021-12-23 16:34:31,835 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: sampled_history
+2021-12-23 16:34:31,842 DEBUG   HandlerThread:17976 [handler.py:handle_request():130] handle_request: shutdown
+2021-12-23 16:34:31,842 INFO    HandlerThread:17976 [handler.py:finish():731] shutting down handler
+2021-12-23 16:34:32,042 INFO    WriterThread:17976 [datastore.py:close():281] close: C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\wandb\run-20211223_163330-2j5n43g4\run-2j5n43g4.wandb
+2021-12-23 16:34:32,833 INFO    SenderThread:17976 [sender.py:finish():1091] shutting down sender
+2021-12-23 16:34:32,833 INFO    SenderThread:17976 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-23 16:34:32,833 INFO    SenderThread:17976 [file_pusher.py:join():182] waiting for file pusher
+2021-12-23 16:34:32,833 INFO    MainThread:17976 [internal.py:handle_exit():77] Internal process exited

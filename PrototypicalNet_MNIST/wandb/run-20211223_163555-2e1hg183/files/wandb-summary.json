@@ -1,0 +1,1 @@
+{"proto_loss": 0.9693596959114075, "proto_acc": 0.699999988079071, "_runtime": 57, "_timestamp": 1640257612, "_step": 101, "epoch_loss": 0.9693596959114075, "epoch_accuracy": 0.699999988079071, "lr": 0.00025, "val_loss": 0.4911157786846161, "val_accuracy": 0.8799999952316284, "_wandb": {"runtime": 55}}

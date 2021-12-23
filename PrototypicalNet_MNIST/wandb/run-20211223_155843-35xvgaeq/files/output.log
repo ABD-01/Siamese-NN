@@ -1,0 +1,26 @@
+
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                                                         | 0/100 [00:00<?, ?it/s]
+torch.Size([200, 1, 105, 105])
+torch.Size([200, 1, 105, 105])
+torch.Size([200, 1, 105, 105])
+torch.Size([200, 1, 105, 105])
+
+  4%|█████▏                                                                                                                           | 4/100 [00:08<02:00,  1.25s/it]
+torch.Size([200, 1, 105, 105])
+torch.Size([200, 1, 105, 105])
+torch.Size([200, 1, 105, 105])
+  8%|██████████▎                                                                                                                      | 8/100 [00:09<01:54,  1.24s/it]
+Traceback (most recent call last):
+  File "c:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 174, in <module>
+    main(args)
+  File "c:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 87, in main
+    result = model.prototype_update(batch)
+  File "c:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\model.py", line 93, in prototype_update
+    loss.backward()
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\torch\autograd\__init__.py", line 154, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt

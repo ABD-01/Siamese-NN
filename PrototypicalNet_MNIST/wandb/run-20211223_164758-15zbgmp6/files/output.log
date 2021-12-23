@@ -1,0 +1,27 @@
+Files already downloaded and verified
+Files already downloaded and verified
+  0%|                                                                                                                                         | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:37<00:00,  2.67it/s]
+Traceback (most recent call last):
+  File "C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 215, in <module>
+    main(args)
+  File "C:\Users\abdul\Projects\Self-Supervised-Learning\PrototypicalNet_MNIST\train.py", line 122, in main
+    print(colored(f'[{epoch}]', epoch_loss, 'blue'))
+  File "C:\Users\abdul\Projects\projects\lib\site-packages\termcolor.py", line 105, in colored
+    text = fmt_str % (COLORS[color], text)
+KeyError: <model.AverageMeter object at 0x000001DF9EFFAB50>
