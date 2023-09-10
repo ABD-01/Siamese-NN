@@ -11,7 +11,7 @@ from torchsummary import summary
 import torchvision.transforms as transforms
 from torchvision.datasets import Omniglot
 
-import wandb
+# import wandb
 
 from model import *
 from sampler import PrototypeSampler
@@ -26,7 +26,7 @@ def seed_init(seed):
         torch.cuda.manual_seed(seed)
         torch.cuda.manual_seed_all(seed)
     # torch.backends.cudnn.enabled = False
-    # torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
 
 
@@ -79,7 +79,7 @@ def validate(model, loader):
 
     print(colored(val_loss, 'blue'))
     print(colored(val_acuracy, 'blue'))
-    wandb.log({"val_loss": val_loss.avg, "val_accuracy": val_acuracy.avg})
+    # wandb.log({"val_loss": val_loss.avg, "val_accuracy": val_acuracy.avg})
 
 
 
@@ -94,7 +94,7 @@ def main(args):
 
     seed_init(args.seed)
 
-    wandb.init(project="ProtoNets", config=args)
+    # wandb.init(project="ProtoNets", config=args)
 
     train_data, val_data = get_dataset(args)
     train_loader = get_loader(train_data, args)
@@ -114,14 +114,14 @@ def main(args):
             torch.cuda.empty_cache()
 
             result = model.prototype_update(batch)
-            wandb.log(result)
+            # wandb.log(result)
             epoch_loss.update(result['proto_loss'])
             epoch_acuracy.update(result['proto_acc'])
 
         model.scheduler.step()
         print(colored(f'[{epoch}] {epoch_loss}', 'blue'))
         print(colored(f'[{epoch}] {epoch_acuracy}', 'blue'))
-        wandb.log({"epoch_loss": epoch_loss.avg, "epoch_accuracy": epoch_acuracy.avg,  "lr":model.optimizer.state_dict()["param_groups"][0]['lr']})
+        # wandb.log({"epoch_loss": epoch_loss.avg, "epoch_accuracy": epoch_acuracy.avg,  "lr":model.optimizer.state_dict()["param_groups"][0]['lr']})
 
         if epoch % 5 == 0:
             validate(model, val_loader)
